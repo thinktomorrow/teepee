@@ -7,6 +7,7 @@
 - Gulp
 - Laravel
 - Elixir
+
 ## Run the application:
 1. Open Terminal
 2. Git pull for updates/changes
