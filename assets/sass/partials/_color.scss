@@ -1,0 +1,47 @@
+// COLOR
+// Foundation overrides
+
+$gray-base:              #000 !default;
+$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:              lighten($gray-base, 20%) !default;   // #333
+$gray:                   lighten($gray-base, 33.5%) !default; // #555
+$gray-light:             #8d8d8d !default; //lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+
+$brand-primary:         #f57921 !default; //darken(#428bca, 6.5%) !default; // #337ab7
+$brand-success:         #5cb85c !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+
+// Custom colours
+$font-color-default:    #a8a8a8;
+$brand-secondary:       #fa9a17 !default;
+$brand-tertiary:        #F9AB33 !default;
+$bright:                #ffffff !default;
+$bright-dark:           #f0f0f0 !default;
+$bright-darker:         #a5a5a5 !default;
+$gray-subtle:           #adb5bb !default;
+$gray-blue:             #f0f4f7 !default;
+
+$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+$font-size-base:          16px !default;
+$font-size-base-number:   16; // used for rem or em calculations
+
+$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$font-size-h1:            2.6em; //floor(($font-size-base * 2.6)) !default; // ~36px
+$font-size-h2:            2.15em; // floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h3:            1.7em; //ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h4:            1em; //16px !default; //ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h5:            1em;//$font-size-base !default;
+$font-size-h6:            0.85em;//ceil(($font-size-base * 0.85)) !default; // ~12px
+
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base:        1.428571429 !default; // 20/14

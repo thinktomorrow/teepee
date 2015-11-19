@@ -1,11 +1,12 @@
 {
   "name": "chief-teepee",
+  "version": "0.0.1",
   "homepage": "https://github.com/kingjohnny/chief-teepee",
   "authors": [
     "Kingjohnny <johnny@thinktomorrow.be>",
     "BenCavens  <cavensben@gmail.com>"
   ],
-  "description": "installing front-end components",
+  "description": "installing front-end components",   
   "main": "bower.json",
   "moduleType": [],
   "keywords": [
@@ -13,6 +14,7 @@
     "teepee",
     "front-end"
   ],
+  "directory" : "assets/libs",     
   "license": "MIT",
   "private": true,
   "ignore": [
@@ -29,6 +31,7 @@
     "gulp": "~3.9.0",
     "elixir": "laravel/elixir#~3.0.0",
     "LiveReload": "livereload/LiveReload#~2.3.74",
-    "normalize-css": "normalize.css#~3.0.3"
+    "normalize-css": "normalize.css#~3.0.3",
+    "animate.css": "~3.4.0"
   }
 }
