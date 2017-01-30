@@ -26,5 +26,3 @@ root
 |   |- fonts
 |
 |- uploads/
-
-

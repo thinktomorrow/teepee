@@ -6,7 +6,7 @@
     "Kingjohnny <johnny@thinktomorrow.be>",
     "BenCavens  <cavensben@gmail.com>"
   ],
-  "description": "installing front-end components",   
+  "description": "installing front-end components",
   "main": "bower.json",
   "moduleType": [],
   "keywords": [
@@ -14,7 +14,7 @@
     "teepee",
     "front-end"
   ],
-  "directory" : "assets/libs",     
+  "directory" : "assets/libs",
   "license": "MIT",
   "private": true,
   "ignore": [
@@ -29,8 +29,6 @@
     "jquery": "~2.1.4",
     "font-awesome": "Font-Awesome#~4.4.0",
     "gulp": "~3.9.0",
-    "elixir": "laravel/elixir#~3.0.0",
-    "LiveReload": "livereload/LiveReload#~2.3.74",
     "normalize-css": "normalize.css#~3.0.3",
     "animate.css": "~3.4.0"
   }

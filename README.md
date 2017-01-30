@@ -8,7 +8,6 @@
 - Font-awesome
 - Gulp
 - Laravel
-- Elixir
 
 ## Run the application:
 1. Open Terminal
@@ -16,3 +15,12 @@
 3. bower install kingjohnny/chief-teepee
 4. Create your build file (Gruntfile.js and build.scss)
 5. Have a Pow wow
+
+
+## Resources
+### Sass
+The main file (usually labelled chief.scss) should be the only Sass file from the whole code base not to begin with an underscore. This file should not contain anything but @import and comments.
+
+### JS
+
+### Compiling with Gulp

@@ -13,15 +13,9 @@
 	<meta name="description" content="[]" />
 	<meta name="keywords" content="[]" />
 	<meta name="robots" contents="[]" />
-	
+
 	<!-- social meta -->
-	<meta property='og:title' content='[]' />
-	<meta property='og:type' content='[]' />
-	<meta property='og:description' content='[]' />
-	<meta property='og:image' content='assets/img/share.jpg' />
-	<meta property='og:url' content='[]' />
-	<meta property='og:site_name' content='[]' />
-	<meta name='twitter:card' content='[]' />
+	<?php include('views/partials/metaheader') ?>
 
 	<!-- styles -->
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css" />
@@ -37,26 +31,25 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 	<!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-
 </head>
 
 
 <body>
 
 
-	<header><div class="inwrap">
-		
-	</div></header>
+	<header>
+		<div class="inwrap"></div>
+	</header>
 
 
-	<main><div class="inwrap">
-		
-	</div></main>
+	<main>
+		<div class="inwrap"></div>
+	</main>
 
 
-	<footer><div class="inwrap">
-		<small> &copy; 2013 </small>
-	</div></footer>
+	<footer>
+		<small> &copy; 2017 </small>
+	</footer>
 
 
 	<!-- foot scripts -->
