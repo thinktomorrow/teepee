@@ -2,7 +2,7 @@
 # chief-teepee
 
 ## Dependencies:
-- Foundation
+- Warpaint
 - Animate.css
 - Jquery
 - Font-awesome

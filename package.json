@@ -1,19 +1,15 @@
 {
-  "private": true,
-  "devDependencies": {
-    "browser-sync": "^2.12.3",
-    "del": "^2.2.0",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-imagemin": "^3.0.1",
-    "gulp-rev": "^7.0.0",
-    "gulp-sass": "^2.2.0",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-uglify": "^1.5.3",
-    "run-sequence": "^1.2.1"
-  },
+  "name": "teepee",
+  "version": "1.0.0",
+  "description": "quickstart your frontend",
+  "main": "index.js",
+  "repository": "https://github.com/kingjohnny/teepee.git",
+  "author": "kingjohnny <johnny@thinktomorrow.be>",
+  "license": "MIT",
   "dependencies": {
-    "es6-promise": "^3.1.2"
+    "animate.css": "^3.5.2",
+    "gulp": "^3.9.1",
+    "jquery": "^3.2.1",
+    "warpaint": "https://github.com/thinktomorrow/warpaint"
   }
 }

@@ -8,7 +8,7 @@
 
 
 	<!-- search meta -->
-	<title> Chief Teepee </title>
+	<title> Teepee </title>
 	<meta name="author" content="[]" />
 	<meta name="description" content="[]" />
 	<meta name="keywords" content="[]" />
