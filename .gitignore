@@ -1,7 +1,3 @@
-# Chief wants to ignore
-
-## bower-components
-/bower_components
-
+# Teepee Ignore
 ## Too many node_modules files
 /node_modules

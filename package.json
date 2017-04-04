@@ -8,7 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "animate.css": "^3.5.2",
-    "gulp": "^3.9.1",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
     "warpaint": "https://github.com/thinktomorrow/warpaint"
   }
