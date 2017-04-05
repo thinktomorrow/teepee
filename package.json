@@ -27,8 +27,5 @@
   },
   "keywords": [
     "boilerplate"
-  ],
-  "devDependencies": {
-    "warpaint": "git+https://github.com/thinktomorrow/warpaint.git"
-  }
+  ]
 }
