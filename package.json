@@ -10,6 +10,6 @@
     "animate.css": "^3.5.2",
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
-    "warpaint": "https://github.com/thinktomorrow/warpaint"
+    "warpaint": "^0.0.3"
   }
 }
