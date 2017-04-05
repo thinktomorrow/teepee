@@ -1,15 +1,34 @@
 {
   "name": "teepee",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "quickstart your frontend",
   "main": "index.js",
-  "repository": "https://github.com/kingjohnny/teepee.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingjohnny/teepee.git"
+  },
   "author": "kingjohnny <johnny@thinktomorrow.be>",
   "license": "MIT",
   "dependencies": {
     "animate.css": "^3.5.2",
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
-    "warpaint": "https://github.com/thinktomorrow/warpaint"
+    "warpaint": "^0.0.3",
+    "laravel-mix": "^0.8.0",
+    "vue": "^2.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/kingjohnny/teepee/issues"
+  },
+  "homepage": "https://github.com/kingjohnny/teepee#readme",
+  "scripts": {
+    "dev": "./node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "./node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [
+    "boilerplate"
+  ],
+  "devDependencies": {
+    "warpaint": "git+https://github.com/thinktomorrow/warpaint.git"
   }
 }
