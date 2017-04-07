@@ -1,14 +1,19 @@
 {
     "name": "kingjohnny/teepee",
-    "description": "Quickstart your frontend ideas",
+    "description": "Quickstart your project/prototype",
     "type": "project",
-    "license": "MIT",
     "authors": [
         {
-            "name": "Johnny Berkmans",
-            "email": "kingjohnny@gmail.com"
+            "name": "kingjohnny",
+            "email": "johnny@thinktomorrow.be"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {}
+    "minimum-stability": "dev",
+    "require": {},
+    "scripts": {
+        "post-create-project-cmd": [
+            "yarn install",
+            "echo 'goe bezig'"
+        ]
+    }
 }
