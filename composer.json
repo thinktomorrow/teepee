@@ -1,0 +1,14 @@
+{
+    "name": "kingjohnny/teepee",
+    "description": "Quickstart your frontend ideas",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johnny Berkmans",
+            "email": "kingjohnny@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
