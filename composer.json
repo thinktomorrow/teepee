@@ -13,5 +13,12 @@
             "email": "johnny@thinktomorrow.be"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "require": {},
+    "scripts": {
+        "post-create-project-cmd": [
+            "yarn install",
+            "echo 'goe bezig'"
+        ]
+    }
 }

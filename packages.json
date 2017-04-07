@@ -1,0 +1,30 @@
+[
+
+    	{
+		    "name": "bencavens/teepee",
+		    "version": "1.0.0",
+		    "source": {
+		    	"url": "/Users/bencavens/Code/teepee/.git",
+		    	"type": "git",
+		    	"reference": "master"	
+	    	},
+		    "description": "Quickstart your project/prototype",
+		    "type": "project",
+		    "authors": [
+		        {
+		            "name": "bencavens",
+		            "email": "johnny@thinktomorrow.be"
+		        }
+		    ],
+		    "minimum-stability": "dev",
+		    "require": {},
+		    "scripts": {
+		        "post-create-project-cmd": [
+		            "yarn install",
+		            "echo 'goe bezig'"
+		        ]
+		    }
+		}
+
+
+    ]
