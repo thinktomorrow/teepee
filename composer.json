@@ -1,0 +1,13 @@
+{
+    "name": "kingjohnny/teepee",
+    "description": "Quickstart your project/prototype",
+    "type": "project",
+    "authors": [
+        {
+            "name": "kingjohnny",
+            "email": "johnny@thinktomorrow.be"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

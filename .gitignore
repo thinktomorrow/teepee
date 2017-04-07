@@ -1,3 +1,5 @@
 # Teepee Ignore
 ## Too many node_modules files
 /node_modules
+
+/vendor/
