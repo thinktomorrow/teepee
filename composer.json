@@ -2,13 +2,12 @@
     "name": "kingjohnny/teepee",
     "description": "Quickstart your frontend ideas",
     "type": "project",
-    "license": "MIT",
     "authors": [
         {
-            "name": "Johnny Berkmans",
-            "email": "kingjohnny@gmail.com"
+            "name": "kingjohnny",
+            "email": "johnny@thinktomorrow.be"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {}
 }
