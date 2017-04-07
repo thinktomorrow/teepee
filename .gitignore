@@ -1,5 +1,5 @@
 # Teepee Ignore
 ## Too many node_modules files
 /node_modules
-
+packages.json
 /vendor/
