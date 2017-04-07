@@ -2,12 +2,16 @@
     "name": "kingjohnny/teepee",
     "description": "Quickstart your project/prototype",
     "type": "project",
+    "require": {
+        "skip": "skip",
+        "composer/composer": "composer/composer"
+    },
+    "license": "MIT",
     "authors": [
         {
             "name": "kingjohnny",
             "email": "johnny@thinktomorrow.be"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "minimum-stability": "dev"
 }
