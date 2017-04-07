@@ -1,6 +1,6 @@
 {
     "name": "kingjohnny/teepee",
-    "description": "Quickstart your frontend ideas",
+    "description": "Quickstart your project/prototype",
     "type": "project",
     "authors": [
         {
@@ -9,5 +9,11 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "scripts": {
+        "post-create-project-cmd": [
+            "yarn install",
+            "echo 'goe bezig'"
+        ]
+    }
 }
