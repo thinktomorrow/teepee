@@ -1,0 +1,11 @@
+{
+    "package": {
+        "name": "bencavens/teepee",
+        "version": "1.0.0",
+        "source": {
+          "url": "Users/bencavens/Code/teepee/.git",
+          "type": "git",
+          "reference": "master"
+        }
+    }
+}
