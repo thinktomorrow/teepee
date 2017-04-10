@@ -16,7 +16,7 @@
 		            "email": "johnny@thinktomorrow.be"
 		        }
 		    ],
-		    "minimum-stability": "dev",
+		    "minimum-stability": "stable",
 		    "require": {},
 		    "scripts": {
 		        "post-create-project-cmd": [
