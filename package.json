@@ -14,9 +14,8 @@
     "animate.css": "^3.5.2",
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
-    "warpaint": "^0.0.3",
     "laravel-mix": "^0.8.0",
-    "vue": "^2.1.0"
+    "warpaint": "git://github.com/thinktomorrow/warpaint.git#0.1"
   },
   "bugs": {
     "url": "https://github.com/kingjohnny/teepee/issues"
