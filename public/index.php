@@ -8,7 +8,7 @@
 
 	<!-- search meta -->
 	<title>Teepee - prototyping</title>
-	<link rel="stylesheet" href="/assets/css/app.css" />
+	<link rel="stylesheet" href="/assets/css/style.css" />
     <script src="/assets/js/head.js"></script>
 
 </head>
