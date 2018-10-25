@@ -1,14 +1,15 @@
-<img src="public/assets/img/logo.png" alt="Teepee"/>
+# Sanel - Vivitek NovoTouch
 
-## Getting started:
-1. clone the teepee repository from `github.com:kingjohnny/teepee.git`.
-2. Run `yarn` to install all dependencies. This will install laravel mix which uses webpack behind the scenes. Also warpaint will be included for a kickass grid.
-3. To build your sass and js assets, run `npm run dev`.
-4. To watch for changes, run `npm run watch`.
-5. Have a pow wow.
+## Invision
+Het prototype vind je terug op [Invision](https://invis.io/UEO1Q3Q9RYS#/319843424_Sanel--onepager)
+`in de comment-mode vind je wat meer uitleg over de acties die nodig zijn per buttons.`
 
-## Dependencies:
-- Warpaint
-- Animate.css
-- Jquery
-- Font-awesome
+### Pagina's
+-[ ] Landingspagina
+-[ ] Cookies
+-[ ] Privacyverklaring
+
+### Modules
+-[ ] Splash video on pageload
+-[ ] Contact modal on click
+-[ ] Tabs voor technische gegevens 
