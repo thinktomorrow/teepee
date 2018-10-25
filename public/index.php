@@ -9,7 +9,7 @@
 	<!-- search meta -->
 	<title>Teepee - prototyping</title>
 	<link rel="stylesheet" href="/assets/css/style.css" />
-    <script src="/assets/js/head.js"></script>
+    <script src="/assets/js/app.js"></script>
 
 </head>
 <body class="center-center">
