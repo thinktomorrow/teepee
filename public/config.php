@@ -4,9 +4,9 @@ $request = $_SERVER['REQUEST_URI'];
 $project_title = "Teepee";
 
 
-//========================================
-//====== Routing en paginatitels =========
-//========================================
+//========================
+//====== Routing =========
+//========================
 
 switch ($request) {
     case '/' : case '/home' : // meerder url's mogelijk door de cases op te splitsen
