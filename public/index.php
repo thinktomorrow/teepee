@@ -1,9 +1,10 @@
+<?php require('config.php'); ?>
 <!DOCTYPE html>
 <html>
 
 <head>
   <meta charset="utf-8">
-  <title>Teepee | project skeleton</title>
+  <title><?php print $project_title." ".$page_title; ?></title>
   <meta name="author" content="">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,26 +19,19 @@
 </head>
 
 <body>
-  <?php include('assets/img/svg-symbol.php') ?>
-  <nav class="container stack flex justify-between">
-    <span>Teepee</span>
-    <div>
-      <a href="" title="">Nav item</a>
-      <a href="" title="">Nav item</a>
-    </div>
-  </nav>
+
+  <?php include('assets/img/svg-symbol.php'); ?>
+  <?php include('_layout/header.php'); ?>
+
 
   <main class="container flex stack h-64 items-center">
-    <section class="w-4/5">
-    MAIN CONTENT
-    </section>
-    <aside class="w-1/5">
-    SIDEBAR
-  </aside>
+      
+      <?php include('views/'. $filename. '.php'); ?>
+
   </main>
-  <footer class="container stack text-center">
-    &copy; 2020 - &#129412; &#127881; door Think Tomorrow
-  </footer>
+
+  <?php include('_layout/footer.php'); ?>
+
 
   <script src="assets/main.js"></script>
 </body>
