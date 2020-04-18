@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-# Open browser
-open http://localhost:4300 &&
-
-# Run the php native server (since 5.4)
-php -S localhost:4300 -t public

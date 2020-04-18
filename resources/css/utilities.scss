@@ -1,0 +1,16 @@
+.stack{ @apply my-4 }
+.inset{ @apply p-4 }
+
+.active{
+    @apply bg-green-300 text-green-800;
+}
+
+.bg-black-50{
+    background-color:rgba(0,0,0,0.5);
+}
+
+.absolute-center{
+    @apply absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

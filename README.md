@@ -1,15 +1,9 @@
-# Sanel - Vivitek NovoTouch
+# Checklist
 
-## Invision
-Het prototype vind je terug op [Invision](https://invis.io/UEO1Q3Q9RYS#/319843424_Sanel--onepager)
-`in de comment-mode vind je wat meer uitleg over de acties die nodig zijn per buttons.`
+- [ ] Layout
+- [ ] de checklist wordt op dagelijkse basis gecleared zodat je op nieuw kan beginnen. (evt clear-knop)
+- [ ] Je krijgt een hig five als je ze allemaal gedaan hebt
+- [ ] De voortgang (0/4) moet nog gefixed worden
+- [ ] Werkend krijgen op een subsite van tt
+- [ ] Testen of met github actions we ook kunnen deployen naar de subsite 
 
-### Pagina's
--[ ] Landingspagina
--[ ] Cookies
--[ ] Privacyverklaring
-
-### Modules
--[ ] Splash video on pageload
--[ ] Contact modal on click
--[ ] Tabs voor technische gegevens 

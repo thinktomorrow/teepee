@@ -1,0 +1,8 @@
+{
+  "name": "Dagelijkse Checklist",
+  "short_name": "checklist",
+  "lang": "en",
+  "start_url": "/",
+  "display": "minimal-ui",
+  "theme_color": "#48bb78"
+}

@@ -1,30 +1,29 @@
 {
-  "name": "teepee",
-  "version": "0.0.1",
-  "description": "quickstart your frontend",
-  "type": "project",
+  "name": "checklist",
+  "version": "1.0.0",
+  "description": "checklist for homework, resets on a daily basis",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kingjohnny/teepee.git"
-  },
-  "author": "kingjohnny <johnny@thinktomorrow.be>",
-  "license": "MIT",
-  "dependencies": {
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.3.1",
-    "laravel-mix": "^2.1.14",
-    "warpaint": "git://github.com/thinktomorrow/warpaint.git#0.1"
-  },
-  "bugs": {
-    "url": "https://github.com/kingjohnny/teepee/issues"
-  },
-  "homepage": "https://github.com/kingjohnny/teepee#readme",
   "scripts": {
-    "dev": "./node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch": "./node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
-  "keywords": [
-    "boilerplate"
-  ]
+  "author": "kingjohnny",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "laravel-mix": "^5.0.4",
+    "laravel-mix-purgecss": "^4.2.0",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "tailwindcss": "^1.2.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "dependencies": {
+    "warpaint": "0.0.10"
+  }
 }
