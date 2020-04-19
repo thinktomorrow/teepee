@@ -5,9 +5,9 @@ mix.js('resources/assets/js/main.js', 'public/compiled_assets')
     .sass('resources/assets/scss/main.scss', 'public/compiled_assets')
     .copy('resources/assets/svg', 'public/compiled_assets/svg')
     .copy('resources/assets/img', 'public/compiled_assets/img')
-    .copyDirectory('resources/views', 'public/views')
+    //.copyDirectory('resources/views', 'public/views')
     .setPublicPath('public')
-    .version()
+    //.version()
 
     .options({
         // Our own set of PostCSS plugins.
