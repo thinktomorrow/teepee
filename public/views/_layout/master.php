@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,400,800&display=swap" rel="stylesheet">
 
-  <link href="<?php / $mix('compiled_assets/main.css') ?>" type="text/css" rel="stylesheet" />
+  <link href="compiled_assets/main.css" type="text/css" rel="stylesheet" />
   <link rel="icon" type="image/svg+xml" href="compiled_assets/svg/favicon.svg">
 
   <?php include('views/_layout/partials/manifest.php') ?>

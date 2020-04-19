@@ -6,7 +6,6 @@ Géén framework, maar een eerste opzet van bestandstructuren en assets.
 ### Start met 👇
 
 ```
-composer install
 npm install
 npm run dev/prod/watch
 ```
